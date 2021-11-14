@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.92 scan initiated Sat Nov 13 15:15:27 2021 as: nmap -sn -oX scanme.xml 192.168.1.0/24 -->
+<nmaprun scanner="nmap" args="nmap -sn -oX scanme.xml 192.168.1.0/24" start="1636834527" startstr="Sat Nov 13 15:15:27 2021" version="7.92" xmloutputversion="1.05">
+    <verbose level="0" />
+    <debugging level="0" />
+    <host>
+        <status state="up" reason="conn-refused" reason_ttl="0" />
+        <address addr="192.168.1.2" addrtype="ipv4" />
+        <hostnames></hostnames>
+        <times srtt="64915" rttvar="64915" to="324575" />
+    </host>
+    <host>
+        <status state="up" reason="conn-refused" reason_ttl="0" />
+        <address addr="192.168.1.5" addrtype="ipv4" />
+        <hostnames></hostnames>
+        <times srtt="63631" rttvar="63631" to="318155" />
+    </host>
+    <host>
+        <status state="up" reason="conn-refused" reason_ttl="0" />
+        <address addr="192.168.1.6" addrtype="ipv4" />
+        <hostnames></hostnames>
+        <times srtt="278" rttvar="5000" to="100000" />
+    </host>
+    <host>
+        <status state="up" reason="conn-refused" reason_ttl="0" />
+        <address addr="192.168.1.10" addrtype="ipv4" />
+        <hostnames></hostnames>
+        <times srtt="74" rttvar="5000" to="100000" />
+    </host>
+    <host>
+        <status state="up" reason="conn-refused" reason_ttl="0" />
+        <address addr="192.168.1.252" addrtype="ipv4" />
+        <hostnames></hostnames>
+        <times srtt="293" rttvar="5000" to="100000" />
+    </host>
+    <host>
+        <status state="up" reason="syn-ack" reason_ttl="0" />
+        <address addr="192.168.1.254" addrtype="ipv4" />
+        <hostnames></hostnames>
+        <times srtt="2962" rttvar="5000" to="100000" />
+    </host>
+    <runstats>
+        <finished time="1636834530" timestr="Sat Nov 13 15:15:30 2021" summary="Nmap done at Sat Nov 13 15:15:30 2021; 256 IP addresses (6 hosts up) scanned in 2.95 seconds" elapsed="2.95" exit="success" />
+        <hosts up="6" down="250" total="256" />
+    </runstats>
+</nmaprun>

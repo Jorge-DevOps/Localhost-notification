@@ -1,0 +1,19 @@
+{
+    "devices": [
+        {
+            "name": "Amazon Technologies",
+            "ip": "192.168.1.1",
+            "MAC": "4:00:49:01:B4:7E"
+        },
+        {
+            "name": "Amazon Technologies",
+            "ip": "192.168.1.1",
+            "MAC": "4:00:49:01:B4:7E"
+        },
+        {
+            "name": "Amazon Technologies",
+            "ip": "192.168.1.1",
+            "MAC": "4:00:49:01:B4:7E"
+        }
+    ]
+}
